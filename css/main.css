@@ -1,0 +1,16 @@
+header{
+	background-color: #1D262C;
+	color: #999;
+}
+
+h1:first-letter{
+	color: #000;
+}
+
+h2{
+	font-variant:small-caps;
+}
+
+li{
+	color: #FFF;
+}
