@@ -14,6 +14,13 @@ body{
   background-color: #1D262C;
   color: #999;
   border-bottom: 5px solid gray;
+  height: 100px;
+}
+
+.brand{
+  width: 450px;
+  float: left;
+  margin-top:18px;
 }
 
 .logo{
@@ -21,6 +28,7 @@ body{
   border-radius: 50%;
   width: 75px;
   height: 75px;
+  margin-bottom: 25px;
   position: relative;
   float: left;
 }
@@ -36,12 +44,29 @@ body{
   display: block;
 }
 
+.title{
+  margin-left: 100px;
+}
+
+h1{
+  font-weight: normal;
+  letter-spacing: 19.6px;
+  margin-bottom: 0;
+}
+
 .header h1:first-letter{
   color: black;
 }
 
 h2{
+  font-weight: lighter;
   font-variant:small-caps;
+  letter-spacing: 4px;
+  margin-top: 4px;
+}
+
+.menus{
+  margin: 20px 20px 10px 10px;
 }
 
 .content{
@@ -55,6 +80,7 @@ h2{
 ul{
   list-style-type: none;
   padding-left: 0;
+  float: right;
 }
 
 li{
@@ -63,9 +89,13 @@ li{
 }
 
 li:not(:last-child):after{
-  content: " | "
+  content: "|";
+  margin: 0 5px 0 5px;
 }
 
 footer{
   color: white;
+  font-size: 10px;
+  float: right;
+  margin-top: 20px;
 }
